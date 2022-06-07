@@ -1,0 +1,236 @@
+/* global */
+
+*{
+    margin:0;
+    padding:0;
+
+
+}
+/* header start */
+ .header {
+     min-height: 100 px;
+     background-color: #FCFFE7;
+     overflow: hidden;
+ } 
+ .wrapper{
+     width: 80%;
+     margin: 0 auto;
+ }
+.logo{
+    width: 20%;
+    float: left;
+    border: 1px solid white;
+}
+
+.nav{
+    width: 70%;
+    float: right;
+    margin-top: 30px;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav ul li{
+    float: left;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #DEA057;
+    padding: 0 30px;
+    font-size: 20 px;
+}
+.nav ul li a :hover{
+    color: #1172B3;
+    transition: 1s;
+}
+
+/* header end */
+
+/* banner start */
+
+.banner{
+    background-color: #E0D8B0;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.banner_text{
+    width: 50%;
+    margin-top: 100px;
+
+}
+
+ .banner_text h3{
+     color: rgb(150, 104, 4);
+     font-size: 40px;
+     font-style: italic;
+ }
+ .banner_text h1{
+     color: #CE9461;
+     font-size: 45px;
+     font-weight: bold;
+ }
+
+ .banner_text p{
+
+    color: #CE9461;
+    font-size: 18 px;
+    font-weight: normal;
+ }
+
+ .banner_text button{
+     background-color: rgb(124, 124, 89);
+     padding: 10px 20px;
+     border: none;
+     border-radius: 3px;
+     margin-top: 30px;
+     transition: 1s;
+
+
+ }
+
+ .banner_text button :hover{
+     background-color: rgb(74, 81, 44);
+     color: white;
+ }
+ /* banner end*/
+ 
+ /* service start */
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+ .content{
+
+    overflow: hidden;
+ }
+ .content_image{
+     width: 200px;
+     float: left;
+     background-color: #E0D8B0;
+
+     
+
+ }
+
+ .content_text{
+
+    width: 70%;
+    float: right;
+    color:white;
+    font-style: italic;
+    
+      
+
+ }
+
+ /* footer start */
+
+ .footer{
+     min-height: 100px;
+     background-color: #CE9461;
+     overflow: hidden;
+     color: white;
+     border-top: 1px solid black;
+
+ }
+
+ .footer_nav{
+     width: 60%;
+     float: left;
+     margin-left: auto;
+ }
+ .footer_logo{
+     width: 30%;
+     float: right;
+ }
